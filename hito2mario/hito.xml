@@ -1,0 +1,2517 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "file:/C:/Users/Campus%20FP/Desktop/Mario/Lenguaje/hito2mario/hito.dtd">
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/Campus%20FP/Desktop/Mario/Lenguaje/hito2mario/hito.xsl"?>
+<clientes>
+  <anio valor="2021">
+    <trimestre valor="1">
+      <!--pedido 1 -->
+      <pedido>
+        <cliente>
+          <nombre>Juan</nombre>
+          <apellidos>Pérez García</apellidos>
+          <telefono>123456789</telefono>
+          <direccion>
+            <calle>Av. Libertad 123</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28080</codigoPostal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correoElectronico>juan.perez@gmail.com</correoElectronico>
+          <fechaInclusion>2020-12-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>1001</numeroPedido>
+          <fechaCompra>2021-01-10</fechaCompra>
+          <fechaEntrega>2021-01-15</fechaEntrega>
+          <totalFactura>150.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Camiseta algodón</nombreProducto>
+              <referencia>CA1234</referencia>
+              <precio>25.00</precio>
+              <unidades>2</unidades>
+            </producto>
+            <producto>
+              <nombreProducto>Zapatillas deportivas</nombreProducto>
+              <referencia>ZD5678</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+            <!--pedido 2 (Cliente recurrente) -->
+      <pedido>
+        <cliente>
+          <nombre>Juan</nombre>
+          <apellidos>Pérez García</apellidos>
+          <telefono>123456789</telefono>
+          <direccion>
+            <calle>Av. Libertad 123</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28080</codigoPostal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correoElectronico>juan.perez@gmail.com</correoElectronico>
+          <fechaInclusion>2020-12-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>1002</numeroPedido>
+          <fechaCompra>2021-01-12</fechaCompra>
+          <fechaEntrega>2021-01-17</fechaEntrega>
+          <totalFactura>90.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Libro de Cocina</nombreProducto>
+              <referencia>LC9876</referencia>
+              <precio>45.00</precio>
+              <unidades>2</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!-- pedido 3 (Nuevo cliente) -->
+      <pedido>
+        <cliente>
+          <nombre>Marta</nombre>
+          <apellidos>Ruiz Díaz</apellidos>
+          <telefono>987654321</telefono>
+          <direccion>
+            <calle>Calle Falsa 123</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigoPostal>08080</codigoPostal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correoElectronico>marta.ruiz@gmail.com</correoElectronico>
+          <fechaInclusion>2021-01-05</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>1003</numeroPedido>
+          <fechaCompra>2021-01-15</fechaCompra>
+          <fechaEntrega>2021-01-20</fechaEntrega>
+          <totalFactura>200.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Smartwatch Modelo X</nombreProducto>
+              <referencia>SWX1024</referencia>
+              <precio>200.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!-- pedido 4 (Cliente recurrente) -->
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>Martín López</apellidos>
+          <telefono>112233445</telefono>
+          <direccion>
+            <calle>Plaza Mayor 45</calle>
+            <ciudad>Valencia</ciudad>
+            <codigoPostal>46001</codigoPostal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correoElectronico>carlos.martin@gmail.com</correoElectronico>
+          <fechaInclusion>2020-11-22</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>1004</numeroPedido>
+          <fechaCompra>2021-01-18</fechaCompra>
+          <fechaEntrega>2021-01-23</fechaEntrega>
+          <totalFactura>60.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Cafetera italiana</nombreProducto>
+              <referencia>CF3487</referencia>
+              <precio>60.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+  
+    </trimestre>
+        <trimestre valor="2">
+      <!-- pedido 1 para el segundo trimestre -->
+      <pedido>
+        <cliente>
+          <nombre>Andrea</nombre>
+          <apellidos>López Miranda</apellidos>
+          <telefono>987654321</telefono>
+          <direccion>
+            <calle>Calle Princesa 25</calle>
+            <ciudad>Valencia</ciudad>
+            <codigoPostal>46005</codigoPostal>
+            <provincia>Valencia</provincia>
+          </direccion>
+          <correoElectronico>andrea.lopez@gmail.com</correoElectronico>
+          <fechaInclusion>2021-03-05</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>2001</numeroPedido>
+          <fechaCompra>2021-04-01</fechaCompra>
+          <fechaEntrega>2021-04-06</fechaEntrega>
+          <totalFactura>85.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Libro "El arte de la guerra"</nombreProducto>
+              <referencia>LIB1234</referencia>
+              <precio>15.00</precio>
+              <unidades>2</unidades>
+            </producto>
+            <producto>
+              <nombreProducto>Cuaderno A5</nombreProducto>
+              <referencia>CUA5678</referencia>
+              <precio>5.00</precio>
+              <unidades>10</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!-- pedido 2 (Cliente recurrente) -->
+      <pedido>
+        <cliente>
+          <nombre>Óscar</nombre>
+          <apellidos>Gutiérrez Silva</apellidos>
+          <telefono>912345678</telefono>
+          <direccion>
+            <calle>Av. Gran Vía 42</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28013</codigoPostal>
+            <provincia>Madrid</provincia>
+          </direccion>
+          <correoElectronico>oscar.gutierrez@gmail.com</correoElectronico>
+          <fechaInclusion>2020-08-22</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>2002</numeroPedido>
+          <fechaCompra>2021-04-05</fechaCompra>
+          <fechaEntrega>2021-04-10</fechaEntrega>
+          <totalFactura>120.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Camiseta básica blanca</nombreProducto>
+              <referencia>CB1234</referencia>
+              <precio>20.00</precio>
+              <unidades>3</unidades>
+            </producto>
+            <producto>
+              <nombreProducto>Jeans azul claro</nombreProducto>
+              <referencia>JAC5678</referencia>
+              <precio>60.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!-- pedido 3 (Nuevo cliente) -->
+      <pedido>
+        <cliente>
+          <nombre>Elena</nombre>
+          <apellidos>Fernández Ortiz</apellidos>
+          <telefono>934567890</telefono>
+          <direccion>
+            <calle>Ronda de Sant Pere 56</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigoPostal>08010</codigoPostal>
+            <provincia>Barcelona</provincia>
+          </direccion>
+          <correoElectronico>elena.fernandez@gmail.com</correoElectronico>
+          <fechaInclusion>2021-03-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>2003</numeroPedido>
+          <fechaCompra>2021-04-08</fechaCompra>
+          <fechaEntrega>2021-04-13</fechaEntrega>
+          <totalFactura>230.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Smartphone XBrand modelo Y</nombreProducto>
+              <referencia>SMXY1234</referencia>
+              <precio>230.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+          <!-- pedido 4 (Cliente recurrente) -->
+    <pedido>
+      <cliente>
+        <nombre>Lucía</nombre>
+        <apellidos>González Herrero</apellidos>
+        <telefono>956789123</telefono>
+        <direccion>
+          <calle>Calle Nueva 67</calle>
+          <ciudad>Sevilla</ciudad>
+          <codigoPostal>41001</codigoPostal>
+          <provincia>Sevilla</provincia>
+        </direccion>
+        <correoElectronico>lucia.gonzalez@gmail.com</correoElectronico>
+        <fechaInclusion>2020-05-20</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2004</numeroPedido>
+        <fechaCompra>2021-04-15</fechaCompra>
+        <fechaEntrega>2021-04-20</fechaEntrega>
+        <totalFactura>75.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Bolígrafos de gel</nombreProducto>
+            <referencia>BG2345</referencia>
+            <precio>15.00</precio>
+            <unidades>3</unidades>
+          </producto>
+          <producto>
+            <nombreProducto>Agenda 2021</nombreProducto>
+            <referencia>AG6789</referencia>
+            <precio>30.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- pedido 5 (Nuevo cliente) -->
+    <pedido>
+      <cliente>
+        <nombre>Roberto</nombre>
+        <apellidos>Martínez Solís</apellidos>
+        <telefono>678123456</telefono>
+        <direccion>
+          <calle>Avenida de la Constitución 44</calle>
+          <ciudad>Granada</ciudad>
+          <codigoPostal>18010</codigoPostal>
+          <provincia>Granada</provincia>
+        </direccion>
+        <correoElectronico>roberto.martinez@gmail.com</correoElectronico>
+        <fechaInclusion>2021-03-25</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2005</numeroPedido>
+        <fechaCompra>2021-05-01</fechaCompra>
+        <fechaEntrega>2021-05-06</fechaEntrega>
+        <totalFactura>300.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Tableta gráfica</nombreProducto>
+            <referencia>TG7890</referencia>
+            <precio>300.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+  
+    <!--pedido 6 (Cliente recurrente) -->
+    <pedido>
+      <cliente>
+        <nombre>Adrián</nombre>
+        <apellidos>Vega García</apellidos>
+        <telefono>612345678</telefono>
+        <direccion>
+          <calle>Plaza Mayor 22</calle>
+          <ciudad>Valladolid</ciudad>
+          <codigoPostal>47001</codigoPostal>
+          <provincia>Valladolid</provincia>
+        </direccion>
+        <correoElectronico>adrian.vega@example.com</correoElectronico>
+        <fechaInclusion>2019-08-15</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2006</numeroPedido>
+        <fechaCompra>2021-04-18</fechaCompra>
+        <fechaEntrega>2021-04-23</fechaEntrega>
+        <totalFactura>120.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Cuadernos A4</nombreProducto>
+            <referencia>CA4001</referencia>
+            <precio>2.00</precio>
+            <unidades>30</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!--pedido 7 (Nuevo cliente) -->
+    <pedido>
+      <cliente>
+        <nombre>Beatriz</nombre>
+        <apellidos>Jiménez Ortega</apellidos>
+        <telefono>698745632</telefono>
+        <direccion>
+          <calle>Calle del Oso 15</calle>
+          <ciudad>Madrid</ciudad>
+          <codigoPostal>28015</codigoPostal>
+          <provincia>Madrid</provincia>
+        </direccion>
+        <correoElectronico>beatriz.jimenez@example.com</correoElectronico>
+        <fechaInclusion>2021-04-01</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2007</numeroPedido>
+        <fechaCompra>2021-05-10</fechaCompra>
+        <fechaEntrega>2021-05-15</fechaEntrega>
+        <totalFactura>85.50</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Rotuladores de colores</nombreProducto>
+            <referencia>RC1234</referencia>
+            <precio>15.50</precio>
+            <unidades>3</unidades>
+          </producto>
+          <producto>
+            <nombreProducto>Estuche de piel</nombreProducto>
+            <referencia>EP5678</referencia>
+            <precio>39.50</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- pedido 8 (Cliente recurrente) -->
+    <pedido>
+      <cliente>
+        <nombre>Carlos</nombre>
+        <apellidos>Santana Morales</apellidos>
+        <telefono>654321098</telefono>
+        <direccion>
+          <calle>Camino Real 48</calle>
+          <ciudad>Salamanca</ciudad>
+          <codigoPostal>37004</codigoPostal>
+          <provincia>Salamanca</provincia>
+        </direccion>
+        <correoElectronico>carlos.santana@example.com</correoElectronico>
+        <fechaInclusion>2018-11-20</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2008</numeroPedido>
+        <fechaCompra>2021-05-20</fechaCompra>
+        <fechaEntrega>2021-05-25</fechaEntrega>
+        <totalFactura>220.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Impresora láser color</nombreProducto>
+            <referencia>ILC7891</referencia>
+            <precio>220.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!--  pedido 9 (Nuevo cliente) -->
+    <pedido>
+      <cliente>
+        <nombre>Diana</nombre>
+        <apellidos>Ruiz Fernández</apellidos>
+        <telefono>678905432</telefono>
+        <direccion>
+          <calle>Avenida de la Paz 9</calle>
+          <ciudad>Zaragoza</ciudad>
+          <codigoPostal>50004</codigoPostal>
+          <provincia>Zaragoza</provincia>
+        </direccion>
+        <correoElectronico>diana.ruiz@example.com</correoElectronico>
+        <fechaInclusion>2021-04-10</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2009</numeroPedido>
+        <fechaCompra>2021-06-01</fechaCompra>
+        <fechaEntrega>2021-06-06</fechaEntrega>
+        <totalFactura>58.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Memoria USB 64GB</nombreProducto>
+            <referencia>MU6401</referencia>
+            <precio>29.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- pedido 10 (Cliente recurrente) -->
+    <pedido>
+      <cliente>
+        <nombre>Elena</nombre>
+        <apellidos>Navarro López</apellidos>
+        <telefono>690123456</telefono>
+        <direccion>
+          <calle>Calle Sol 33</calle>
+          <ciudad>Barcelona</ciudad>
+          <codigoPostal>08002</codigoPostal>
+          <provincia>Barcelona</provincia>
+        </direccion>
+        <correoElectronico>elena.navarro@example.com</correoElectronico>
+        <fechaInclusion>2017-09-05</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2010</numeroPedido>
+        <fechaCompra>2021-06-15</fechaCompra>
+        <fechaEntrega>2021-06-20</fechaEntrega>
+        <totalFactura>180.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Teclado mecánico RGB</nombreProducto>
+            <referencia>TMRGB234</referencia>
+            <precio>90.00</precio>
+            <unidades>2</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+  
+    </trimestre>
+      <trimestre valor="3">
+      <!--pedido 1 para el tercer trimestre -->
+      <pedido>
+        <cliente>
+          <nombre>Roberto</nombre>
+          <apellidos>Vega Sánchez</apellidos>
+          <telefono>976543210</telefono>
+          <direccion>
+            <calle>Calle del Olvido 56</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigoPostal>41010</codigoPostal>
+            <provincia>Sevilla</provincia>
+          </direccion>
+          <correoElectronico>roberto.vega@gmail.com</correoElectronico>
+          <fechaInclusion>2021-07-02</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>3001</numeroPedido>
+          <fechaCompra>2021-07-05</fechaCompra>
+          <fechaEntrega>2021-07-10</fechaEntrega>
+          <totalFactura>45.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Agenda 2022</nombreProducto>
+              <referencia>AG2022</referencia>
+              <precio>15.00</precio>
+              <unidades>3</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!--pedido 2 (Cliente recurrente) -->
+      <pedido>
+        <cliente>
+          <nombre>Lucía</nombre>
+          <apellidos>Martínez Ruiz</apellidos>
+          <telefono>912345678</telefono>
+          <direccion>
+            <calle>Av. de la Constitución 123</calle>
+            <ciudad>Zaragoza</ciudad>
+            <codigoPostal>50004</codigoPostal>
+            <provincia>Zaragoza</provincia>
+          </direccion>
+          <correoElectronico>lucia.martinez@gmail.com</correoElectronico>
+          <fechaInclusion>2020-10-12</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>3002</numeroPedido>
+          <fechaCompra>2021-07-08</fechaCompra>
+          <fechaEntrega>2021-07-13</fechaEntrega>
+          <totalFactura>100.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Perfume Elegancia</nombreProducto>
+              <referencia>PERF1234</referencia>
+              <precio>100.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!-- pedido 3 (Nuevo cliente) -->
+      <pedido>
+        <cliente>
+          <nombre>Fernando</nombre>
+          <apellidos>González López</apellidos>
+          <telefono>934567890</telefono>
+          <direccion>
+            <calle>Ronda de Nelle 150</calle>
+            <ciudad>A Coruña</ciudad>
+            <codigoPostal>15010</codigoPostal>
+            <provincia>A Coruña</provincia>
+          </direccion>
+          <correoElectronico>fernando.gonzalez@gmail.com</correoElectronico>
+          <fechaInclusion>2021-07-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>3003</numeroPedido>
+          <fechaCompra>2021-07-18</fechaCompra>
+          <fechaEntrega>2021-07-23</fechaEntrega>
+          <totalFactura>320.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Tablet Fire 8</nombreProducto>
+              <referencia>TF8000</referencia>
+              <precio>160.00</precio>
+              <unidades>2</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!--  de pedido 4 -->
+      <pedido>
+        <cliente>
+          <nombre>Sofía</nombre>
+          <apellidos>Navarro Pascual</apellidos>
+          <telefono>948765432</telefono>
+          <direccion>
+            <calle>Plaza Mayor 33</calle>
+            <ciudad>Pamplona</ciudad>
+            <codigoPostal>31001</codigoPostal>
+            <provincia>Navarra</provincia>
+          </direccion>
+          <correoElectronico>sofia.navarro@gmail.com</correoElectronico>
+          <fechaInclusion>2021-07-20</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>3004</numeroPedido>
+          <fechaCompra>2021-07-22</fechaCompra>
+          <fechaEntrega>2021-07-27</fechaEntrega>
+          <totalFactura>200.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Cámara digital XYZ</nombreProducto>
+              <referencia>CAM789</referencia>
+              <precio>200.00</precio>
+              <unidades>1</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+      <!--  de pedido 5 -->
+      <pedido>
+        <cliente>
+          <nombre>Carlos</nombre>
+          <apellidos>Muñoz Herrera</apellidos>
+          <telefono>956789012</telefono>
+          <direccion>
+            <calle>Calle Nueva 44</calle>
+            <ciudad>Jerez de la Frontera</ciudad>
+            <codigoPostal>11403</codigoPostal>
+            <provincia>Cádiz</provincia>
+          </direccion>
+          <correoElectronico>carlos.munoz@gmail.com</correoElectronico>
+          <fechaInclusion>2021-07-25</fechaInclusion>
+        </cliente>
+        <detallePedido>
+          <numeroPedido>3005</numeroPedido>
+          <fechaCompra>2021-07-28</fechaCompra>
+          <fechaEntrega>2021-08-02</fechaEntrega>
+          <totalFactura>75.00</totalFactura>
+          <productos>
+            <producto>
+              <nombreProducto>Libro de cocina moderna</nombreProducto>
+              <referencia>LIB123CO</referencia>
+              <precio>25.00</precio>
+              <unidades>3</unidades>
+            </producto>
+          </productos>
+        </detallePedido>
+      </pedido>
+
+              <!--  pedido 6 (Nuevo cliente) -->
+    <pedido>
+      <cliente>
+        <nombre>Fernando</nombre>
+        <apellidos>González Pérez</apellidos>
+        <telefono>687123456</telefono>
+        <direccion>
+          <calle>Gran Vía 28</calle>
+          <ciudad>Madrid</ciudad>
+          <codigoPostal>28013</codigoPostal>
+          <provincia>Madrid</provincia>
+        </direccion>
+        <correoElectronico>fernando.gonzalez@example.com</correoElectronico>
+        <fechaInclusion>2021-07-01</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2011</numeroPedido>
+        <fechaCompra>2021-07-05</fechaCompra>
+        <fechaEntrega>2021-07-10</fechaEntrega>
+        <totalFactura>145.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Agenda 2022</nombreProducto>
+            <referencia>A2022</referencia>
+            <precio>15.00</precio>
+            <unidades>5</unidades>
+          </producto>
+          <producto>
+            <nombreProducto>Bolígrafos gel</nombreProducto>
+            <referencia>BG345</referencia>
+            <precio>2.50</precio>
+            <unidades>20</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- pedido 7 (Cliente recurrente) -->
+    <pedido>
+      <cliente>
+        <nombre>Gabriela</nombre>
+        <apellidos>Moreno Castillo</apellidos>
+        <telefono>699876543</telefono>
+        <direccion>
+          <calle>Avenida del Parque 34</calle>
+          <ciudad>Sevilla</ciudad>
+          <codigoPostal>41005</codigoPostal>
+          <provincia>Sevilla</provincia>
+        </direccion>
+        <correoElectronico>gabriela.moreno@example.com</correoElectronico>
+        <fechaInclusion>2018-03-22</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2012</numeroPedido>
+        <fechaCompra>2021-07-15</fechaCompra>
+        <fechaEntrega>2021-07-20</fechaEntrega>
+        <totalFactura>320.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Tableta gráfica</nombreProducto>
+            <referencia>TG7890</referencia>
+            <precio>320.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- Ejemplo de pedido 8 (Nuevo cliente) -->
+    <pedido>
+      <cliente>
+        <nombre>Héctor</nombre>
+        <apellidos>Sanchez Martín</apellidos>
+        <telefono>610987654</telefono>
+        <direccion>
+          <calle>Calle Nueva 56</calle>
+          <ciudad>Valencia</ciudad>
+          <codigoPostal>46001</codigoPostal>
+          <provincia>Valencia</provincia>
+        </direccion>
+        <correoElectronico>hector.sanchez@example.com</correoElectronico>
+        <fechaInclusion>2021-07-20</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2013</numeroPedido>
+        <fechaCompra>2021-08-01</fechaCompra>
+        <fechaEntrega>2021-08-06</fechaEntrega>
+        <totalFactura>100.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Mouse inalámbrico</nombreProducto>
+            <referencia>MI1234</referencia>
+            <precio>25.00</precio>
+            <unidades>4</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- Ejemplo de pedido 9 (Cliente recurrente) -->
+    <pedido>
+      <cliente>
+        <nombre>Irene</nombre>
+        <apellidos>García Ruiz</apellidos>
+        <telefono>623456789</telefono>
+        <direccion>
+          <calle>Paseo de la Esperanza 22</calle>
+          <ciudad>Granada</ciudad>
+          <codigoPostal>18002</codigoPostal>
+          <provincia>Granada</provincia>
+        </direccion>
+        <correoElectronico>irene.garcia@example.com</correoElectronico>
+        <fechaInclusion>2019-05-14</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2014</numeroPedido>
+        <fechaCompra>2021-08-10</fechaCompra>
+        <fechaEntrega>2021-08-15</fechaEntrega>
+        <totalFactura>210.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Portátil básico 15"</nombreProducto>
+            <referencia>PB1517</referencia>
+            <precio>210.00</precio>
+            <unidades>1</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+
+    <!-- Ejemplo de pedido 10(Nuevo cliente) -->
+    <pedido>
+      <cliente>
+        <nombre>Javier</nombre>
+        <apellidos>Martínez López</apellidos>
+        <telefono>654789123</telefono>
+        <direccion>
+          <calle>Ronda de Nelle 70</calle>
+          <ciudad>A Coruña</ciudad>
+          <codigoPostal>15007</codigoPostal>
+          <provincia>A Coruña</provincia>
+        </direccion>
+        <correoElectronico>javier.martinez@example.com</correoElectronico>
+        <fechaInclusion>2021-08-25</fechaInclusion>
+      </cliente>
+      <detallePedido>
+        <numeroPedido>2015</numeroPedido>
+        <fechaCompra>2021-09-01</fechaCompra>
+        <fechaEntrega>2021-09-06</fechaEntrega>
+        <totalFactura>60.00</totalFactura>
+        <productos>
+          <producto>
+            <nombreProducto>Carpeta archivadora</nombreProducto>
+            <referencia>CA7892</referencia>
+            <precio>10.00</precio>
+            <unidades>6</unidades>
+          </producto>
+        </productos>
+      </detallePedido>
+    </pedido>
+  </trimestre>
+<trimestre valor="4">
+  <!-- Ejemplo de pedido 1 (Nuevo cliente) -->
+  <pedido>
+    <cliente>
+      <nombre>Isabel</nombre>
+      <apellidos>García Torres</apellidos>
+      <telefono>965432178</telefono>
+      <direccion>
+        <calle>Calle Falsa 123</calle>
+        <ciudad>Valencia</ciudad>
+        <codigoPostal>46022</codigoPostal>
+        <provincia>Valencia</provincia>
+      </direccion>
+      <correoElectronico>isabel.garcia@gmail.com</correoElectronico>
+      <fechaInclusion>2021-10-01</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>4001</numeroPedido>
+      <fechaCompra>2021-10-03</fechaCompra>
+      <fechaEntrega>2021-10-08</fechaEntrega>
+      <totalFactura>90.00</totalFactura>
+      <productos>
+        <producto>
+          <nombreProducto>Set de tazas de café</nombreProducto>
+          <referencia>TAZ9000</referencia>
+          <precio>30.00</precio>
+          <unidades>3</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <!-- Ejemplo de pedido 2 (Cliente recurrente) -->
+  <pedido>
+    <cliente>
+      <nombre>Marta</nombre>
+      <apellidos>Rodríguez López</apellidos>
+      <telefono>978654321</telefono>
+      <direccion>
+        <calle>Plaza del Sol 45</calle>
+        <ciudad>Madrid</ciudad>
+        <codigoPostal>28004</codigoPostal>
+        <provincia>Madrid</provincia>
+      </direccion>
+      <correoElectronico>marta.rodriguez@gmail.com</correoElectronico>
+      <fechaInclusion>2020-05-17</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>4002</numeroPedido>
+      <fechaCompra>2021-10-06</fechaCompra>
+      <fechaEntrega>2021-10-11</fechaEntrega>
+      <totalFactura>120.00</totalFactura>
+      <productos>
+        <producto>
+          <nombreProducto>Juego de sábanas de algodón</nombreProducto>
+          <referencia>SAB100</referencia>
+          <precio>60.00</precio>
+          <unidades>2</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <!-- Ejemplo de pedido 3 (Nuevo cliente) -->
+  <pedido>
+    <cliente>
+      <nombre>Álvaro</nombre>
+      <apellidos>Suárez Navarro</apellidos>
+      <telefono>987123456</telefono>
+      <direccion>
+        <calle>Av. de América 321</calle>
+        <ciudad>Barcelona</ciudad>
+        <codigoPostal>08021</codigoPostal>
+        <provincia>Barcelona</provincia>
+      </direccion>
+      <correoElectronico>alvaro.suarez@gmail.com</correoElectronico>
+      <fechaInclusion>2021-10-10</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>4003</numeroPedido>
+      <fechaCompra>2021-10-12</fechaCompra>
+      <fechaEntrega>2021-10-17</fechaEntrega>
+      <totalFactura>50.00</totalFactura>
+      <productos>
+        <producto>
+          <nombreProducto>Libro "Historias de la Historia"</nombreProducto>
+          <referencia>LIBHIST123</referencia>
+          <precio>25.00</precio>
+          <unidades>2</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <!-- Ejemplo de pedido 4 (Cliente recurrente) -->
+  <pedido>
+    <cliente>
+      <nombre>Pedro</nombre>
+      <apellidos>Gómez Fernández</apellidos>
+      <telefono>963852741</telefono>
+      <direccion>
+        <calle>Calle Nueva 24</calle>
+        <ciudad>Sevilla</ciudad>
+        <codigoPostal>41012</codigoPostal>
+        <provincia>Sevilla</provincia>
+      </direccion>
+      <correoElectronico>pedro.gomez@gmail.com</correoElectronico>
+      <fechaInclusion>2019-11-23</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>4004</numeroPedido>
+      <fechaCompra>2021-10-15</fechaCompra>
+      <fechaEntrega>2021-10-20</fechaEntrega>
+      <totalFactura>180.00</totalFactura>
+      <productos>
+        <producto>
+          <nombreProducto>Smartwatch Modelo Avanzado</nombreProducto>
+          <referencia>SWATCH2021</referencia>
+          <precio>180.00</precio>
+          <unidades>1</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+
+  <!--  pedido 5 (Nuevo cliente) -->
+  <pedido>
+    <cliente>
+      <nombre>Elena</nombre>
+      <apellidos>Pérez García</apellidos>
+      <telefono>921654987</telefono>
+      <direccion>
+        <calle>Gran Vía 78</calle>
+        <ciudad>Bilbao</ciudad>
+        <codigoPostal>48009</codigoPostal>
+        <provincia>Vizcaya</provincia>
+      </direccion>
+      <correoElectronico>elena.perez@gmail.com</correoElectronico>
+      <fechaInclusion>2021-10-18</fechaInclusion>
+    </cliente>
+    <detallePedido>
+      <numeroPedido>4005</numeroPedido>
+      <fechaCompra>2021-10-20</fechaCompra>
+      <fechaEntrega>2021-10-25</fechaEntrega>
+      <totalFactura>70.00</totalFactura>
+      <productos>
+        <producto>
+          <nombreProducto>Ramo de flores variadas</nombreProducto>
+          <referencia>FLO1000</referencia>
+          <precio>35.00</precio>
+          <unidades>2</unidades>
+        </producto>
+      </productos>
+    </detallePedido>
+  </pedido>
+  <!-- pedido 6 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Carlos</nombre>
+    <apellidos>Martínez Ruiz</apellidos>
+    <telefono>934567890</telefono>
+    <direccion>
+      <calle>Avenida de la Constitución 56</calle>
+      <ciudad>Gijón</ciudad>
+      <codigoPostal>33207</codigoPostal>
+      <provincia>Asturias</provincia>
+    </direccion>
+    <correoElectronico>carlos.martinez@gmail.com</correoElectronico>
+    <fechaInclusion>2019-02-14</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>4006</numeroPedido>
+    <fechaCompra>2021-10-23</fechaCompra>
+    <fechaEntrega>2021-10-28</fechaEntrega>
+    <totalFactura>150.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Cámara fotográfica digital</nombreProducto>
+        <referencia>CAM7890</referencia>
+        <precio>150.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- pedido 7 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Lucía</nombre>
+    <apellidos>Moreno Sánchez</apellidos>
+    <telefono>950123456</telefono>
+    <direccion>
+      <calle>Camino de los Sastres 48</calle>
+      <ciudad>Almería</ciudad>
+      <codigoPostal>04004</codigoPostal>
+      <provincia>Almería</provincia>
+    </direccion>
+    <correoElectronico>lucia.moreno@gmail.com</correoElectronico>
+    <fechaInclusion>2021-10-25</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>4007</numeroPedido>
+    <fechaCompra>2021-10-27</fechaCompra>
+    <fechaEntrega>2021-11-01</fechaEntrega>
+    <totalFactura>80.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Perfume "Esencia de Primavera"</nombreProducto>
+        <referencia>PERF234</referencia>
+        <precio>40.00</precio>
+        <unidades>2</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- pedido 8 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Antonio</nombre>
+    <apellidos>González López</apellidos>
+    <telefono>912345678</telefono>
+    <direccion>
+      <calle>Paseo de la Castellana 120</calle>
+      <ciudad>Madrid</ciudad>
+      <codigoPostal>28046</codigoPostal>
+      <provincia>Madrid</provincia>
+    </direccion>
+    <correoElectronico>antonio.gonzalez@gmail.com</correoElectronico>
+    <fechaInclusion>2018-07-29</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>4008</numeroPedido>
+    <fechaCompra>2021-11-05</fechaCompra>
+    <fechaEntrega>2021-11-10</fechaEntrega>
+    <totalFactura>200.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Consola de videojuegos última generación</nombreProducto>
+        <referencia>CONS9001</referencia>
+        <precio>200.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- pedido 9 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Sofía</nombre>
+    <apellidos>Jiménez Pascual</apellidos>
+    <telefono>921654987</telefono>
+    <direccion>
+      <calle>Ronda de la Universidad 19</calle>
+      <ciudad>Zaragoza</ciudad>
+      <codigoPostal>50004</codigoPostal>
+      <provincia>Zaragoza</provincia>
+    </direccion>
+    <correoElectronico>sofia.jimenez@gmail.com</correoElectronico>
+    <fechaInclusion>2021-11-08</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>4009</numeroPedido>
+    <fechaCompra>2021-11-11</fechaCompra>
+    <fechaEntrega>2021-11-16</fechaEntrega>
+    <totalFactura>110.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Mochila de viaje espaciosa</nombreProducto>
+        <referencia>MOCHI789</referencia>
+        <precio>55.00</precio>
+        <unidades>2</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!--pedido 10 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Beatriz</nombre>
+    <apellidos>Núñez Garrido</apellidos>
+    <telefono>958123456</telefono>
+    <direccion>
+      <calle>Avenida Andalucía 28</calle>
+      <ciudad>Granada</ciudad>
+      <codigoPostal>18014</codigoPostal>
+      <provincia>Granada</provincia>
+    </direccion>
+    <correoElectronico>beatriz.nunez@gmail.com</correoElectronico>
+    <fechaInclusion>2017-04-12</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>4010</numeroPedido>
+    <fechaCompra>2021-11-18</fechaCompra>
+    <fechaEntrega>2021-11-23</fechaEntrega>
+    <totalFactura>60.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Cuaderno de notas artesanal</nombreProducto>
+        <referencia>CUAD234</referencia>
+        <precio>30.00</precio>
+        <unidades>2</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+</trimestre>
+
+
+  </anio>
+  <anio valor="2022">
+    <trimestre valor="1">
+    <!-- Ejemplo de pedido 1 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Marta</nombre>
+    <apellidos>Rodríguez Luna</apellidos>
+    <telefono>987654321</telefono>
+    <direccion>
+      <calle>Calle de las Flores 22</calle>
+      <ciudad>Sevilla</ciudad>
+      <codigoPostal>41010</codigoPostal>
+      <provincia>Sevilla</provincia>
+    </direccion>
+    <correoElectronico>marta.rodriguez@gmail.com</correoElectronico>
+    <fechaInclusion>2022-01-03</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5001</numeroPedido>
+    <fechaCompra>2022-01-05</fechaCompra>
+    <fechaEntrega>2022-01-10</fechaEntrega>
+    <totalFactura>90.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Juego de sartenes antiadherentes</nombreProducto>
+        <referencia>SART123</referencia>
+        <precio>45.00</precio>
+        <unidades>2</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 2 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Javier</nombre>
+    <apellidos>Fernández Morales</apellidos>
+    <telefono>923456789</telefono>
+    <direccion>
+      <calle>Plaza Mayor 15</calle>
+      <ciudad>Salamanca</ciudad>
+      <codigoPostal>37002</codigoPostal>
+      <provincia>Salamanca</provincia>
+    </direccion>
+    <correoElectronico>javier.fernandez@gmail.com</correoElectronico>
+    <fechaInclusion>2018-09-20</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5002</numeroPedido>
+    <fechaCompra>2022-01-15</fechaCompra>
+    <fechaEntrega>2022-01-20</fechaEntrega>
+    <totalFactura>120.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Smartwatch última generación</nombreProducto>
+        <referencia>WATCH2022</referencia>
+        <precio>120.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 3 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Ángela</nombre>
+    <apellidos>Vega Martínez</apellidos>
+    <telefono>934567890</telefono>
+    <direccion>
+      <calle>Gran Vía 33</calle>
+      <ciudad>Barcelona</ciudad>
+      <codigoPostal>08007</codigoPostal>
+      <provincia>Barcelona</provincia>
+    </direccion>
+    <correoElectronico>angela.vega@gmail.com</correoElectronico>
+    <fechaInclusion>2022-01-22</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5003</numeroPedido>
+    <fechaCompra>2022-01-25</fechaCompra>
+    <fechaEntrega>2022-01-30</fechaEntrega>
+    <totalFactura>200.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Tablet 10 pulgadas</nombreProducto>
+        <referencia>TABL10</referencia>
+        <precio>200.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 4 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Roberto</nombre>
+    <apellidos>García Sánchez</apellidos>
+    <telefono>965432178</telefono>
+    <direccion>
+      <calle>Avenida de América 45</calle>
+      <ciudad>Valencia</ciudad>
+      <codigoPostal>46004</codigoPostal>
+      <provincia>Valencia</provincia>
+    </direccion>
+    <correoElectronico>roberto.garcia@gmail.com</correoElectronico>
+    <fechaInclusion>2020-05-18</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5004</numeroPedido>
+    <fechaCompra>2022-02-02</fechaCompra>
+    <fechaEntrega>2022-02-07</fechaEntrega>
+    <totalFactura>350.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Laptop de alta gama</nombreProducto>
+        <referencia>LAPT500</referencia>
+        <precio>350.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 5 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Laura</nombre>
+    <apellidos>Díaz López</apellidos>
+    <telefono>978654321</telefono>
+    <direccion>
+      <calle>Calle Nueva 67</calle>
+      <ciudad>Málaga</ciudad>
+      <codigoPostal>29005</codigoPostal>
+      <provincia>Málaga</provincia>
+    </direccion>
+    <correoElectronico>laura.diaz@gmail.com</correoElectronico>
+    <fechaInclusion>2022-02-12</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5005</numeroPedido>
+    <fechaCompra>2022-02-14</fechaCompra>
+    <fechaEntrega>2022-02-19</fechaEntrega>
+    <totalFactura>75.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Set de maquillaje profesional</nombreProducto>
+        <referencia>MAQ123</referencia>
+        <precio>75.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+<!-- Ejemplo de pedido 6 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Carlos</nombre>
+    <apellidos>Martínez Ruiz</apellidos>
+    <telefono>945678123</telefono>
+    <direccion>
+      <calle>Avenida del Parque 12</calle>
+      <ciudad>Zaragoza</ciudad>
+      <codigoPostal>50004</codigoPostal>
+      <provincia>Zaragoza</provincia>
+    </direccion>
+    <correoElectronico>carlos.martinez@gmail.com</correoElectronico>
+    <fechaInclusion>2019-04-15</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5006</numeroPedido>
+    <fechaCompra>2022-02-20</fechaCompra>
+    <fechaEntrega>2022-02-25</fechaEntrega>
+    <totalFactura>150.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Consola de videojuegos portátil</nombreProducto>
+        <referencia>CONSVP123</referencia>
+        <precio>150.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 7 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Patricia</nombre>
+    <apellidos>Gómez Fernández</apellidos>
+    <telefono>956789234</telefono>
+    <direccion>
+      <calle>Calle del Sol 8</calle>
+      <ciudad>Cádiz</ciudad>
+      <codigoPostal>11006</codigoPostal>
+      <provincia>Cádiz</provincia>
+    </direccion>
+    <correoElectronico>patricia.gomez@gmail.com</correoElectronico>
+    <fechaInclusion>2022-02-28</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5007</numeroPedido>
+    <fechaCompra>2022-03-01</fechaCompra>
+    <fechaEntrega>2022-03-06</fechaEntrega>
+    <totalFactura>85.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Cámara de seguridad WiFi</nombreProducto>
+        <referencia>CAMSEG123</referencia>
+        <precio>85.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 8 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Sofía</nombre>
+    <apellidos>Nieto Jiménez</apellidos>
+    <telefono>967890345</telefono>
+    <direccion>
+      <calle>Paseo de la Reforma 24</calle>
+      <ciudad>Granada</ciudad>
+      <codigoPostal>18009</codigoPostal>
+      <provincia>Granada</provincia>
+    </direccion>
+    <correoElectronico>sofia.nieto@gmail.com</correoElectronico>
+    <fechaInclusion>2021-07-22</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5008</numeroPedido>
+    <fechaCompra>2022-03-10</fechaCompra>
+    <fechaEntrega>2022-03-15</fechaEntrega>
+    <totalFactura>200.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Robot aspirador inteligente</nombreProducto>
+        <referencia>ROBASP123</referencia>
+        <precio>200.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 9 (Nuevo cliente) -->
+<pedido>
+  <cliente>
+    <nombre>Óscar</nombre>
+    <apellidos>Lozano Pascual</apellidos>
+    <telefono>978901456</telefono>
+    <direccion>
+      <calle>Calle Mayor 56</calle>
+      <ciudad>Valladolid</ciudad>
+      <codigoPostal>47001</codigoPostal>
+      <provincia>Valladolid</provincia>
+    </direccion>
+    <correoElectronico>oscar.lozano@gmail.com</correoElectronico>
+    <fechaInclusion>2022-03-18</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5009</numeroPedido>
+    <fechaCompra>2022-03-20</fechaCompra>
+    <fechaEntrega>2022-03-25</fechaEntrega>
+    <totalFactura>100.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Kit de herramientas eléctricas</nombreProducto>
+        <referencia>KITHE123</referencia>
+        <precio>100.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+<!-- Ejemplo de pedido 10 (Cliente recurrente) -->
+<pedido>
+  <cliente>
+    <nombre>Lucía</nombre>
+    <apellidos>Martín Gómez</apellidos>
+    <telefono>982345678</telefono>
+    <direccion>
+      <calle>Avenida de los Castros 100</calle>
+      <ciudad>Santander</ciudad>
+      <codigoPostal>39005</codigoPostal>
+      <provincia>Cantabria</provincia>
+    </direccion>
+    <correoElectronico>lucia.martin@gmail.com</correoElectronico>
+    <fechaInclusion>2020-11-03</fechaInclusion>
+  </cliente>
+  <detallePedido>
+    <numeroPedido>5010</numeroPedido>
+    <fechaCompra>2022-03-27</fechaCompra>
+    <fechaEntrega>2022-03-31</fechaEntrega>
+    <totalFactura>65.00</totalFactura>
+    <productos>
+      <producto>
+        <nombreProducto>Par de zapatillas deportivas</nombreProducto>
+        <referencia>ZAPDEP123</referencia>
+        <precio>65.00</precio>
+        <unidades>1</unidades>
+      </producto>
+    </productos>
+  </detallePedido>
+</pedido>
+
+    </trimestre>
+<trimestre valor="2">
+    <!-- pedido 1 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Marta</nombre>
+            <apellidos>Fernández López</apellidos>
+            <telefono>654987321</telefono>
+            <direccion>
+                <calle>Av. de la Constitución 10</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigoPostal>41001</codigoPostal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correoElectronico>marta.fernandez@example.com</correoElectronico>
+            <fechaInclusion>2022-03-05</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2111</numeroPedido>
+            <fechaCompra>2022-04-01</fechaCompra>
+            <fechaEntrega>2022-04-06</fechaEntrega>
+            <totalFactura>150.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Altavoz Bluetooth</nombreProducto>
+                    <referencia>AB1234</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Auriculares con cancelación de ruido</nombreProducto>
+                    <referencia>AC5678</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 2 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>Javier</nombre>
+            <apellidos>Gómez Pérez</apellidos>
+            <telefono>623456789</telefono>
+            <direccion>
+                <calle>Calle Mayor 20</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28001</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>javier.gomez@example.com</correoElectronico>
+            <fechaInclusion>2021-12-10</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2112</numeroPedido>
+            <fechaCompra>2022-04-05</fechaCompra>
+            <fechaEntrega>2022-04-10</fechaEntrega>
+            <totalFactura>280.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Monitor de 27 pulgadas</nombreProducto>
+                    <referencia>MO7890</referencia>
+                    <precio>200.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Teclado mecánico</nombreProducto>
+                    <referencia>TM4567</referencia>
+                    <precio>80.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 3 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Antonio</nombre>
+            <apellidos>Rodríguez Martín</apellidos>
+            <telefono>657890123</telefono>
+            <direccion>
+                <calle>Plaza del Pilar 5</calle>
+                <ciudad>Zaragoza</ciudad>
+                <codigoPostal>50001</codigoPostal>
+                <provincia>Zaragoza</provincia>
+            </direccion>
+            <correoElectronico>antonio.rodriguez@example.com</correoElectronico>
+            <fechaInclusion>2022-03-20</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2113</numeroPedido>
+            <fechaCompra>2022-04-10</fechaCompra>
+            <fechaEntrega>2022-04-15</fechaEntrega>
+            <totalFactura>90.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Ratón inalámbrico</nombreProducto>
+                    <referencia>RI2345</referencia>
+                    <precio>30.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Alfombrilla para ratón</nombreProducto>
+                    <referencia>AR6789</referencia>
+                    <precio>60.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 4 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>María</nombre>
+            <apellidos>López García</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Ronda de Valencia 15</calle>
+                <ciudad>Valencia</ciudad>
+                <codigoPostal>46002</codigoPostal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correoElectronico>maria.lopez@example.com</correoElectronico>
+            <fechaInclusion>2021-09-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2114</numeroPedido>
+            <fechaCompra>2022-04-15</fechaCompra>
+            <fechaEntrega>2022-04-20</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Impresora multifunción</nombreProducto>
+                    <referencia>IM2345</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Cable USB-C</nombreProducto>
+                    <referencia>CU4567</referencia>
+                    <precio>20.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 5 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Pablo</nombre>
+            <apellidos>Martínez Pérez</apellidos>
+            <telefono>678901234</telefono>
+            <direccion>
+                <calle>Av. de la Libertad 20</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28004</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>pablo.martinez@example.com</correoElectronico>
+            <fechaInclusion>2022-02-28</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2115</numeroPedido>
+            <fechaCompra>2022-05-01</fechaCompra>
+            <fechaEntrega>2022-05-06</fechaEntrega>
+            <totalFactura>200.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Disco duro externo 1TB</nombreProducto>
+                    <referencia>DH1234</referencia>
+                    <precio>100.00</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 6 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>Sofía</nombre>
+            <apellidos>Ruiz Sánchez</apellidos>
+            <telefono>645678901</telefono>
+            <direccion>
+                <calle>Calle Mayor 30</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigoPostal>08002</codigoPostal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correoElectronico>sofia.ruiz@example.com</correoElectronico>
+            <fechaInclusion>2021-11-10</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2116</numeroPedido>
+            <fechaCompra>2022-05-05</fechaCompra>
+            <fechaEntrega>2022-05-10</fechaEntrega>
+            <totalFactura>90.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Teclado inalámbrico</nombreProducto>
+                    <referencia>TI5678</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Ratón óptico</nombreProducto>
+                    <referencia>RO9012</referencia>
+                    <precio>40.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 7 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Laura</nombre>
+            <apellidos>García Martínez</apellidos>
+            <telefono>612345678</telefono>
+            <direccion>
+                <calle>Plaza de España 15</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigoPostal>41010</codigoPostal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correoElectronico>laura.garcia@example.com</correoElectronico>
+            <fechaInclusion>2022-03-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2117</numeroPedido>
+            <fechaCompra>2022-05-10</fechaCompra>
+            <fechaEntrega>2022-05-15</fechaEntrega>
+            <totalFactura>180.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Monitor curvo de 32 pulgadas</nombreProducto>
+                    <referencia>MC1234</referencia>
+                    <precio>150.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Webcam Full HD</nombreProducto>
+                    <referencia>WF5678</referencia>
+                    <precio>30.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 8 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>Daniel</nombre>
+            <apellidos>Martín Ruiz</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Calle Real 25</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28010</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>daniel.martin@example.com</correoElectronico>
+            <fechaInclusion>2021-10-20</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2118</numeroPedido>
+            <fechaCompra>2022-05-15</fechaCompra>
+            <fechaEntrega>2022-05-20</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Router WiFi 6</nombreProducto>
+                    <referencia>RW6789</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Switch de 8 puertos</nombreProducto>
+                    <referencia>SW3456</referencia>
+                    <precio>20.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 9 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Andrea</nombre>
+            <apellidos>Ramos López</apellidos>
+            <telefono>623456789</telefono>
+            <direccion>
+                <calle>Av. Diagonal 100</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigoPostal>08005</codigoPostal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correoElectronico>andrea.ramos@example.com</correoElectronico>
+            <fechaInclusion>2022-04-01</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2119</numeroPedido>
+            <fechaCompra>2022-06-01</fechaCompra>
+            <fechaEntrega>2022-06-06</fechaEntrega>
+            <totalFactura>70.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Adaptador USB-C a HDMI</nombreProducto>
+                    <referencia>AU1234</referencia>
+                    <precio>30.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Cable USB-A a USB-C</nombreProducto>
+                    <referencia>CU5678</referencia>
+                    <precio>40.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 10 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>Miguel</nombre>
+            <apellidos>Hernández Gómez</apellidos>
+            <telefono>645678901</telefono>
+            <direccion>
+                <calle>Av. de la Libertad 5</calle>
+                <ciudad>Valencia</ciudad>
+                <codigoPostal>46001</codigoPostal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correoElectronico>miguel.hernandez@example.com</correoElectronico>
+            <fechaInclusion>2021-11-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2120</numeroPedido>
+            <fechaCompra>2022-06-15</fechaCompra>
+            <fechaEntrega>2022-06-20</fechaEntrega>
+            <totalFactura>300.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Smartwatch</nombreProducto>
+                    <referencia>SW2345</referencia>
+                    <precio>150.00</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+</trimestre>
+<trimestre valor="3">
+    <!-- pedido 1 -->
+    <pedido>
+        <cliente>
+            <nombre>María</nombre>
+            <apellidos>García Pérez</apellidos>
+            <telefono>612345678</telefono>
+            <direccion>
+                <calle>Calle Mayor 10</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28001</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>maria.garcia@example.com</correoElectronico>
+            <fechaInclusion>2022-01-05</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2121</numeroPedido>
+            <fechaCompra>2022-07-01</fechaCompra>
+            <fechaEntrega>2022-07-06</fechaEntrega>
+            <totalFactura>150.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Auriculares Bluetooth</nombreProducto>
+                    <referencia>AB1234</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Altavoz portátil</nombreProducto>
+                    <referencia>AP5678</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 2 -->
+    <pedido>
+        <cliente>
+            <nombre>Juan</nombre>
+            <apellidos>Rodríguez Martínez</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Calle Real 15</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigoPostal>41001</codigoPostal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correoElectronico>juan.rodriguez@example.com</correoElectronico>
+            <fechaInclusion>2021-12-10</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2122</numeroPedido>
+            <fechaCompra>2022-07-05</fechaCompra>
+            <fechaEntrega>2022-07-10</fechaEntrega>
+            <totalFactura>180.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Impresora multifunción</nombreProducto>
+                    <referencia>IM1234</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Papel fotográfico</nombreProducto>
+                    <referencia>PF5678</referencia>
+                    <precio>40.00</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 3 -->
+    <pedido>
+        <cliente>
+            <nombre>David</nombre>
+            <apellidos>Gómez Ruiz</apellidos>
+            <telefono>645678901</telefono>
+            <direccion>
+                <calle>Av. Libertador 20</calle>
+                <ciudad>Valencia</ciudad>
+                <codigoPostal>46002</codigoPostal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correoElectronico>david.gomez@example.com</correoElectronico>
+            <fechaInclusion>2022-02-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2123</numeroPedido>
+            <fechaCompra>2022-07-08</fechaCompra>
+            <fechaEntrega>2022-07-13</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Ratón gaming</nombreProducto>
+                    <referencia>RG1234</referencia>
+                    <precio>70.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Teclado mecánico</nombreProducto>
+                    <referencia>TM5678</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 4 -->
+    <pedido>
+        <cliente>
+            <nombre>Luisa</nombre>
+            <apellidos>Sanchez López</apellidos>
+            <telefono>612345678</telefono>
+            <direccion>
+                <calle>Av. Diagonal 50</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigoPostal>08005</codigoPostal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correoElectronico>luisa.sanchez@example.com</correoElectronico>
+            <fechaInclusion>2022-03-01</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2124</numeroPedido>
+            <fechaCompra>2022-07-15</fechaCompra>
+            <fechaEntrega>2022-07-20</fechaEntrega>
+            <totalFactura>200.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Monitor LED 24 pulgadas</nombreProducto>
+                    <referencia>ML1234</referencia>
+                    <precio>150.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Soporte para monitor</nombreProducto>
+                    <referencia>SM5678</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 5 -->
+    <pedido>
+        <cliente>
+            <nombre>Elena</nombre>
+            <apellidos>Ramírez Jiménez</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Calle Mayor 5</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28001</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>elena.ramirez@example.com</correoElectronico>
+            <fechaInclusion>2022-04-05</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2125</numeroPedido>
+            <fechaCompra>2022-07-20</fechaCompra>
+            <fechaEntrega>2022-07-25</fechaEntrega>
+            <totalFactura>80.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Ratón inalámbrico</nombreProducto>
+                    <referencia>RI1234</referencia>
+                    <precio>40.00</precio>
+                    <unidades>2</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 6 -->
+    <pedido>
+        <cliente>
+            <nombre>Carlos</nombre>
+            <apellidos>Martínez Pérez</apellidos>
+            <telefono>645678901</telefono>
+            <direccion>
+                <calle>Plaza España 3</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigoPostal>41002</codigoPostal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correoElectronico>carlos.martinez@example.com</correoElectronico>
+            <fechaInclusion>2022-05-10</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2126</numeroPedido>
+            <fechaCompra>2022-07-25</fechaCompra>
+            <fechaEntrega>2022-07-30</fechaEntrega>
+            <totalFactura>220.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Disco duro externo 1TB</nombreProducto>
+                    <referencia>DDE1234</referencia>
+                    <precio>120.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Pendrive 64GB</nombreProducto>
+                    <referencia>PD5678</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 7 -->
+    <pedido>
+        <cliente>
+            <nombre>Andrea</nombre>
+            <apellidos>Ruiz Sánchez</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Av. Principal 7</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigoPostal>08003</codigoPostal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correoElectronico>andrea.ruiz@example.com</correoElectronico>
+            <fechaInclusion>2022-06-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2127</numeroPedido>
+            <fechaCompra>2022-08-01</fechaCompra>
+            <fechaEntrega>2022-08-06</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Teclado inalámbrico</nombreProducto>
+                    <referencia>TI1234</referencia>
+                    <precio>60.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Ratón óptico</nombreProducto>
+                    <referencia>RO5678</referencia>
+                    <precio>60.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 8 -->
+    <pedido>
+        <cliente>
+            <nombre>Laura</nombre>
+            <apellidos>Fernández Gutiérrez</apellidos>
+            <telefono>612345678</telefono>
+            <direccion>
+                <calle>Calle Real 25</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28002</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>laura.fernandez@example.com</correoElectronico>
+            <fechaInclusion>2022-07-01</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2128</numeroPedido>
+            <fechaCompra>2022-08-05</fechaCompra>
+            <fechaEntrega>2022-08-10</fechaEntrega>
+            <totalFactura>180.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Monitor LED 27 pulgadas</nombreProducto>
+                    <referencia>ML2711</referencia>
+                    <precio>150.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Soporte para monitor ajustable</nombreProducto>
+                    <referencia>SM5678</referencia>
+                    <precio>30.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 9 -->
+    <pedido>
+        <cliente>
+            <nombre>Javier</nombre>
+            <apellidos>Ruiz López</apellidos>
+            <telefono>645678901</telefono>
+            <direccion>
+                <calle>Plaza Mayor 3</calle>
+                <ciudad>Valencia</ciudad>
+                <codigoPostal>46003</codigoPostal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correoElectronico>javier.ruiz@example.com</correoElectronico>
+            <fechaInclusion>2022-08-15</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2129</numeroPedido>
+            <fechaCompra>2022-08-10</fechaCompra>
+            <fechaEntrega>2022-08-15</fechaEntrega>
+            <totalFactura>250.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Portátil HP</nombreProducto>
+                    <referencia>PHP1234</referencia>
+                    <precio>200.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Funda para portátil</nombreProducto>
+                    <referencia>FP5678</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- pedido 10 -->
+    <pedido>
+        <cliente>
+            <nombre>Beatriz</nombre>
+            <apellidos>Martínez Pérez</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Calle Mayor 15</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigoPostal>08004</codigoPostal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correoElectronico>beatriz.martinez@example.com</correoElectronico>
+            <fechaInclusion>2022-09-01</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2130</numeroPedido>
+            <fechaCompra>2022-08-15</fechaCompra>
+            <fechaEntrega>2022-08-20</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Disco SSD 500GB</nombreProducto>
+                    <referencia>DSSD1234</referencia>
+                    <precio>80.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Cable HDMI</nombreProducto>
+                    <referencia>CH5678</referencia>
+                    <precio>40.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+</trimestre>
+<trimestre valor="4">
+    <!-- Pedido 1 del cuarto trimestre -->
+    <pedido>
+        <cliente>
+            <nombre>Miguel</nombre>
+            <apellidos>González Martínez</apellidos>
+            <telefono>612345678</telefono>
+            <direccion>
+                <calle>Calle Mayor 10</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28001</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>miguel.gonzalez@example.com</correoElectronico>
+            <fechaInclusion>2022-09-05</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2201</numeroPedido>
+            <fechaCompra>2022-10-01</fechaCompra>
+            <fechaEntrega>2022-10-06</fechaEntrega>
+            <totalFactura>150.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Auriculares Bluetooth</nombreProducto>
+                    <referencia>AB6789</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Powerbank 10000mAh</nombreProducto>
+                    <referencia>PB1234</referencia>
+                    <precio>50.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- Pedido 2 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>María</nombre>
+            <apellidos>Rodríguez García</apellidos>
+            <telefono>634567890</telefono>
+            <direccion>
+                <calle>Avenida Diagonal 20</calle>
+                <ciudad>Barcelona</ciudad>
+                <codigoPostal>08002</codigoPostal>
+                <provincia>Barcelona</provincia>
+            </direccion>
+            <correoElectronico>maria.rodriguez@example.com</correoElectronico>
+            <fechaInclusion>2021-10-20</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2202</numeroPedido>
+            <fechaCompra>2022-10-05</fechaCompra>
+            <fechaEntrega>2022-10-10</fechaEntrega>
+            <totalFactura>200.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Laptop HP</nombreProducto>
+                    <referencia>LHP5678</referencia>
+                    <precio>800.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Ratón inalámbrico</nombreProducto>
+                    <referencia>RI9102</referencia>
+                    <precio>40.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Teclado USB</nombreProducto>
+                    <referencia>TUSB3456</referencia>
+                    <precio>60.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- Pedido 3 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Javier</nombre>
+            <apellidos>López Ruiz</apellidos>
+            <telefono>645678901</telefono>
+            <direccion>
+                <calle>Calle Gran Vía 30</calle>
+                <ciudad>Madrid</ciudad>
+                <codigoPostal>28013</codigoPostal>
+                <provincia>Madrid</provincia>
+            </direccion>
+            <correoElectronico>javier.lopez@example.com</correoElectronico>
+            <fechaInclusion>2022-11-03</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2203</numeroPedido>
+            <fechaCompra>2022-10-10</fechaCompra>
+            <fechaEntrega>2022-10-15</fechaEntrega>
+            <totalFactura>120.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Smartwatch</nombreProducto>
+                    <referencia>SW7890</referencia>
+                    <precio>100.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Funda para portátil</nombreProducto>
+                    <referencia>FP6789</referencia>
+                    <precio>20.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- Pedido 4 (Cliente recurrente) -->
+    <pedido>
+        <cliente>
+            <nombre>Sofía</nombre>
+            <apellidos>Moreno Rodríguez</apellidos>
+            <telefono>678901234</telefono>
+            <direccion>
+                <calle>Plaza España 5</calle>
+                <ciudad>Sevilla</ciudad>
+                <codigoPostal>41013</codigoPostal>
+                <provincia>Sevilla</provincia>
+            </direccion>
+            <correoElectronico>sofia.moreno@example.com</correoElectronico>
+            <fechaInclusion>2021-07-18</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2204</numeroPedido>
+            <fechaCompra>2022-10-15</fechaCompra>
+            <fechaEntrega>2022-10-20</fechaEntrega>
+            <totalFactura>80.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Altavoz Bluetooth</nombreProducto>
+                    <referencia>AB7891</referencia>
+                    <precio>40.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Auriculares con cancelación de ruido</nombreProducto>
+                    <referencia>ACR5678</referencia>
+                    <precio>40.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+
+    <!-- Pedido 5 (Nuevo cliente) -->
+    <pedido>
+        <cliente>
+            <nombre>Ana</nombre>
+            <apellidos>García Sánchez</apellidos>
+            <telefono>645678123</telefono>
+            <direccion>
+                <calle>Calle Mayor 50</calle>
+                <ciudad>Valencia</ciudad>
+                <codigoPostal>46002</codigoPostal>
+                <provincia>Valencia</provincia>
+            </direccion>
+            <correoElectronico>ana.garcia@example.com</correoElectronico>
+            <fechaInclusion>2022-11-10</fechaInclusion>
+        </cliente>
+        <detallePedido>
+            <numeroPedido>2205</numeroPedido>
+            <fechaCompra>2022-10-20</fechaCompra>
+            <fechaEntrega>2022-10-25</fechaEntrega>
+            <totalFactura>95.00</totalFactura>
+            <productos>
+                <producto>
+                    <nombreProducto>Impresora multifunción</nombreProducto>
+                    <referencia>IM4567</referencia>
+                    <precio>70.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+                <producto>
+                    <nombreProducto>Cartuchos de tinta</nombreProducto>
+                    <referencia>CT8910</referencia>
+                    <precio>25.00</precio>
+                    <unidades>1</unidades>
+                </producto>
+            </productos>
+        </detallePedido>
+    </pedido>
+<!-- Pedido 6 (Cliente recurrente) -->
+<pedido>
+    <cliente>
+        <nombre>Luis</nombre>
+        <apellidos>Martínez Pérez</apellidos>
+        <telefono>634567890</telefono>
+        <direccion>
+            <calle>Calle Gran Vía 80</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28013</codigoPostal>
+            <provincia>Madrid</provincia>
+        </direccion>
+        <correoElectronico>luis.martinez@example.com</correoElectronico>
+        <fechaInclusion>2021-08-12</fechaInclusion>
+    </cliente>
+    <detallePedido>
+        <numeroPedido>2206</numeroPedido>
+        <fechaCompra>2022-10-25</fechaCompra>
+        <fechaEntrega>2022-10-30</fechaEntrega>
+        <totalFactura>180.00</totalFactura>
+        <productos>
+            <producto>
+                <nombreProducto>Monitor LED 24"</nombreProducto>
+                <referencia>ML2401</referencia>
+                <precio>150.00</precio>
+                <unidades>1</unidades>
+            </producto>
+            <producto>
+                <nombreProducto>Ratón gaming</nombreProducto>
+                <referencia>RG4567</referencia>
+                <precio>30.00</precio>
+                <unidades>1</unidades>
+            </producto>
+        </productos>
+    </detallePedido>
+</pedido>
+
+<!-- Pedido 7 (Nuevo cliente) -->
+<pedido>
+    <cliente>
+        <nombre>David</nombre>
+        <apellidos>Gómez García</apellidos>
+        <telefono>612345678</telefono>
+        <direccion>
+            <calle>Calle Mayor 15</calle>
+            <ciudad>Barcelona</ciudad>
+            <codigoPostal>08002</codigoPostal>
+            <provincia>Barcelona</provincia>
+        </direccion>
+        <correoElectronico>david.gomez@example.com</correoElectronico>
+        <fechaInclusion>2022-11-05</fechaInclusion>
+    </cliente>
+    <detallePedido>
+        <numeroPedido>2207</numeroPedido>
+        <fechaCompra>2022-11-01</fechaCompra>
+        <fechaEntrega>2022-11-06</fechaEntrega>
+        <totalFactura>75.00</totalFactura>
+        <productos>
+            <producto>
+                <nombreProducto>Teclado inalámbrico</nombreProducto>
+                <referencia>TI8901</referencia>
+                <precio>50.00</precio>
+                <unidades>1</unidades>
+            </producto>
+            <producto>
+                <nombreProducto>Mousepad gaming</nombreProducto>
+                <referencia>MG1234</referencia>
+                <precio>25.00</precio>
+                <unidades>1</unidades>
+            </producto>
+        </productos>
+    </detallePedido>
+</pedido>
+
+<!-- Pedido 8 (Cliente recurrente) -->
+<pedido>
+    <cliente>
+        <nombre>Manuel</nombre>
+        <apellidos>Fernández Rodríguez</apellidos>
+        <telefono>645678901</telefono>
+        <direccion>
+            <calle>Paseo de la Castellana 150</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28046</codigoPostal>
+            <provincia>Madrid</provincia>
+        </direccion>
+        <correoElectronico>manuel.fernandez@example.com</correoElectronico>
+        <fechaInclusion>2021-05-20</fechaInclusion>
+    </cliente>
+    <detallePedido>
+        <numeroPedido>2208</numeroPedido>
+        <fechaCompra>2022-11-10</fechaCompra>
+        <fechaEntrega>2022-11-15</fechaEntrega>
+        <totalFactura>250.00</totalFactura>
+        <productos>
+            <producto>
+                <nombreProducto>Impresora multifunción láser</nombreProducto>
+                <referencia>IML5678</referencia>
+                <precio>200.00</precio>
+                <unidades>1</unidades>
+            </producto>
+            <producto>
+                <nombreProducto>Papel de impresión</nombreProducto>
+                <referencia>PI2345</referencia>
+                <precio>50.00</precio>
+                <unidades>2</unidades>
+            </producto>
+        </productos>
+    </detallePedido>
+</pedido>
+
+<!-- Pedido 9 (Nuevo cliente) -->
+<pedido>
+    <cliente>
+        <nombre>Carmen</nombre>
+        <apellidos>Ruiz Sánchez</apellidos>
+        <telefono>678901234</telefono>
+        <direccion>
+            <calle>Plaza de España 10</calle>
+            <ciudad>Sevilla</ciudad>
+            <codigoPostal>41004</codigoPostal>
+            <provincia>Sevilla</provincia>
+        </direccion>
+        <correoElectronico>carmen.ruiz@example.com</correoElectronico>
+        <fechaInclusion>2022-11-20</fechaInclusion>
+    </cliente>
+    <detallePedido>
+        <numeroPedido>2209</numeroPedido>
+        <fechaCompra>2022-11-15</fechaCompra>
+        <fechaEntrega>2022-11-20</fechaEntrega>
+        <totalFactura>120.00</totalFactura>
+        <productos>
+            <producto>
+                <nombreProducto>Altavoces Bluetooth</nombreProducto>
+                <referencia>AB6781</referencia>
+                <precio>80.00</precio>
+                <unidades>1</unidades>
+            </producto>
+            <producto>
+                <nombreProducto>Auriculares deportivos</nombreProducto>
+                <referencia>AD2345</referencia>
+                <precio>40.00</precio>
+                <unidades>1</unidades>
+            </producto>
+        </productos>
+    </detallePedido>
+</pedido>
+
+<!-- Pedido 10 (Cliente recurrente) -->
+<pedido>
+    <cliente>
+        <nombre>Pablo</nombre>
+        <apellidos>López Pérez</apellidos>
+        <telefono>612345678</telefono>
+        <direccion>
+            <calle>Calle Mayor 25</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28001</codigoPostal>
+            <provincia>Madrid</provincia>
+        </direccion>
+        <correoElectronico>pablo.lopez@example.com</correoElectronico>
+        <fechaInclusion>2021-04-15</fechaInclusion>
+    </cliente>
+    <detallePedido>
+        <numeroPedido>2210</numeroPedido>
+        <fechaCompra>2022-11-20</fechaCompra>
+        <fechaEntrega>2022-11-25</fechaEntrega>
+        <totalFactura>150.00</totalFactura>
+        <productos>
+            <producto>
+                <nombreProducto>Disco duro externo 1TB</nombreProducto>
+                <referencia>DDE4567</referencia>
+                <precio>100.00</precio>
+                <unidades>1</unidades>
+            </producto>
+            <producto>
+                <nombreProducto>Hub USB 3.0</nombreProducto>
+                <referencia>HUB1234</referencia>
+                <precio>50.00</precio>
+                <unidades>1</unidades>
+            </producto>
+        </productos>
+    </detallePedido>
+</pedido>
+</trimestre>
+  </anio>
+</clientes>
